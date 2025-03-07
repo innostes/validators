@@ -1,0 +1,38 @@
+{
+  "name": "@innostes/validators",
+  "version": "1.0.1",
+  "description": "A collection of utility functions to validate commonly used Indian documents and data formats such as mobile numbers, PAN, Aadhar, GSTIN, IFSC, and more. This package provides regular expression-based validators for accurate and quick input validation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "indian",
+    "validators",
+    "regex",
+    "mobile",
+    "pan",
+    "aadhar",
+    "gstin",
+    "ifsc",
+    "voter-id",
+    "pin-code"
+  ],
+  "author": "Innostes Solutions <support@innostes.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innostes/validators.git"
+  },
+  "bugs": {
+    "url": "https://github.com/innostes/validators/issues"
+  },
+  "homepage": "https://github.com/innostes/validators#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {}
+}
